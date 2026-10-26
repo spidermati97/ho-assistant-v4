@@ -1,0 +1,23 @@
+{
+  "id": "./",
+  "name": "HO Assistant",
+  "short_name": "HO Assistant",
+  "description": "Task assistant for KKM house officers: type tasks in ward shorthand and see what to do next.",
+  "lang": "en-MY",
+  "start_url": "./?source=homescreen",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0C6870",
+  "theme_color": "#0C6870",
+  "categories": ["medical", "productivity"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Ward round", "short_name": "Rounds", "url": "./?tab=rounds", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "Handover", "short_name": "Handover", "url": "./?tab=handover", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] }
+  ]
+}
